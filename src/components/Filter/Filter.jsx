@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setFilterValue } from '../../redux/contactsSlice';
 
 const Filter = () => {
-  const filterValue = useSelector(state => state.filter);
+  const filterValue = useSelector(state => state.contacts.filter);
   const dispatch = useDispatch();
 
   const handleFilter = event => {
