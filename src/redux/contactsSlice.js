@@ -4,7 +4,6 @@ const initialState = {
   contacts: [],
   filter: '',
 };
-console.log(initialState.contacts);
 
 const contactsSlice = createSlice({
   name: 'contacts',
